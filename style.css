@@ -1,0 +1,262 @@
+.na {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  width: 20%;
+}
+a {
+  text-decoration: none;
+  color: #ababab;
+  display: block;
+}
+.About-us {
+  color: #00b39b;
+}
+.career:hover {
+  color: #00b39b;
+}
+.Departments:hover {
+  color: #00b39b;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  list-style: none;
+  position: fixed;
+  width: 100%;
+  background-color: #ffff;
+  top:0;
+  left:0;
+}
+.title {
+  color: #00b39b;
+}
+.container {
+  background-color: white;
+  position: fixed;
+  top: 0px;
+  width: 50%;
+  left: 0;
+}
+.paragraphe {
+  text-align: center;
+  margin-top: 100px;
+}
+.paraghraph-container {
+  display: flex;
+  justify-content: space-around;
+}
+.x {
+  width: 500px;
+}
+.services {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px;
+}
+.col-3 {
+  display: flex;
+  justify-content: space-around;
+}
+.t {
+  background: #00ccb1;
+  width: 400px;
+  border-radius: 10px;
+  color: #ffff;
+  height: 300px;
+}
+.y {
+  background: #3d83df;
+  width: 400px;
+  border-radius: 10px;
+  color: #ffff;
+  height: 300px;
+}
+.z {
+  background: #1b2734;
+  width: 400px;
+  border-radius: 10px;
+  color: #ffff;
+  height: 300px;
+}
+
+.services__item {
+  padding: 32px 32px 2px;
+  border-radius: 20px;
+}
+.select-One {
+  background-color: #00ccb1;
+  border: none;
+  color: #ffff;
+  text-decoration: underline;
+}
+.select-two {
+  background-color: #3d83df;
+  border: none;
+  color: #ffff;
+  text-decoration: underline;
+}
+.select-three {
+  background-color: #1b2734;
+  border: none;
+  color: #ffff;
+  text-decoration: underline;
+}
+
+main {
+  padding: 30px 10px;
+  text-align: justify;
+  margin: 1.25em 150px 1.35em;
+}
+.brands_logos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: left;
+  font-size: 0;
+  width: 60%;
+  list-style: none;
+}
+.brands_logos li {
+  font-size: 1rem;
+  display: inline-block;
+  width: 160px;
+  padding: 5px 0;
+}
+.n li:hover svg {
+  fill: #00b39b;
+}
+.brands_logos li a svg {
+  height: 20px;
+  width: auto;
+  max-width: 100%;
+  padding-left: 10px;
+  fill: #ababab;
+}
+h1 {
+  color: #00b39b;
+}
+
+.world {
+  background-color: #e5faf8;
+  display: flex;
+  justify-content: space-around;
+}
+header {
+  padding: 10px;
+  margin: 32px 0px 0px;
+}
+.pa {
+  margin: 22.4px 0px;
+  color: #747477;
+}
+h3 {
+  color: #00b39b;
+  margin: 12px 0px;
+}
+.w {
+  background-color: #ffff;
+  padding: 15px;
+}
+.col-1 {
+  color: #ffff;
+}
+.t:hover {
+  background-color: #00b39b;
+}
+.y:hover {
+  background-color: #2563b4;
+}
+.z:hover {
+  background-color: #000000;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+.w {
+  width: 180px;
+  margin-bottom: 10px;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  padding: 10px;
+}
+.yep {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.a {
+  text-align: center;
+  padding: 50px;
+}
+.r {
+  font: 30px "work sans", arial, sans-serif;
+}
+p {
+  color: #747477;
+}
+.office {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.office-content {
+  margin: auto;
+  display: flex;
+  width: 70%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.office .btn {
+  float: right;
+}
+.btn--small {
+  font-size: 0.625rem;
+  padding: 1em 1.5em;
+}
+
+.office:hover {
+  background-color: whitesmoke;
+}
+.finaly {
+  padding: 50px;
+  text-align: center;
+}
+.fi {
+  text-align: center;
+  font-size: 2.1428571429em;
+  color: #333;
+  margin-bottom: 0.75em;
+}
+.btn {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  outline: 0;
+  border: 0;
+  border-radius: 4px;
+  padding: 1.1666666667em 1.5em;
+  background: #3d83df;
+  font-family: Roboto, Arial, sans-serif;
+  line-height: 1em;
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.75rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+footer {
+  padding: 50px;
+  text-align: center;
+  color: #747477;
+}
